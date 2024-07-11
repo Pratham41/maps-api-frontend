@@ -62,10 +62,11 @@ function Modal({ onClose, onLocationSelect }) {
               </div>
               <input
                 type="text"
-                className="block w-full pl-10 pr-10 py-2 border-2 bg-transparent focus:text-black border-green-600 rounded-lg shadow-sm outline-none sm:text-sm"
+                className="block font-semibold w-full pl-10 pr-10 py-2 border-2 bg-transparent focus:text-black border-green-600 rounded-lg shadow-sm outline-none sm:text-sm"
                 placeholder="Search..."
                 value={searchText}
                 onChange={(e) => setSearchText(e.target.value)}
+                autoFocus
               />
             </div>
           </div>
